@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multi Auto Clicker</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_service_label">Multi Auto Clicker</string>
+    <string name="accessibility_service_description">Required to simulate screen taps for the auto clicker functionality.</string>
+
+    <!-- Main screen -->
+    <string name="title_setup">Setup Required</string>
+    <string name="btn_enable_accessibility">Enable Accessibility Service</string>
+    <string name="btn_grant_overlay">Grant Overlay Permission</string>
+    <string name="btn_start_clicker">Launch Auto Clicker</string>
+    <string name="btn_stop_clicker">Stop Auto Clicker</string>
+
+    <!-- Permissions -->
+    <string name="perm_overlay_title">Overlay Permission</string>
+    <string name="perm_overlay_desc">Allows the floating control panel and click points to appear over other apps.</string>
+    <string name="perm_accessibility_title">Accessibility Service</string>
+    <string name="perm_accessibility_desc">Allows the app to simulate tap gestures on the screen.</string>
+    <string name="perm_notification_title">Notification</string>
+    <string name="perm_notification_desc">Required to keep the service running in the background.</string>
+
+    <!-- Control panel -->
+    <string name="panel_title">Auto Clicker</string>
+    <string name="label_loop">LOOP MODE</string>
+    <string name="label_infinite">∞  Infinite</string>
+    <string name="label_fixed">Fixed Count</string>
+    <string name="label_delay">Delay (ms)</string>
+    <string name="label_click_points">Click Points</string>
+    <string name="btn_add_point">+ Add</string>
+    <string name="btn_clear_points">Clear All</string>
+    <string name="btn_start">▶  START</string>
+    <string name="btn_stop">■  STOP</string>
+    <string name="btn_settings">Settings</string>
+
+    <!-- Progress -->
+    <string name="progress_running">Running: Loop %1$d</string>
+    <string name="progress_infinite">Running… Loop %1$d / ∞</string>
+    <string name="progress_done">Completed %1$d loop(s)</string>
+    <string name="status_no_points">Add at least 1 click point first</string>
+    <string name="status_no_service">Enable Accessibility Service first</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_id">auto_clicker_channel</string>
+    <string name="notif_channel_name">Auto Clicker Service</string>
+    <string name="notif_running_title">Auto Clicker Active</string>
+    <string name="notif_running_text">Tap to open control panel</string>
+    <string name="notif_done_title">Macro Finished</string>
+    <string name="notif_done_text">Completed %1$d loop(s)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_notify_complete">Notify when macro completes</string>
+    <string name="settings_notify_complete_desc">Show notification when a fixed-count loop finishes</string>
+    <string name="settings_close">Close</string>
+
+    <!-- Hints -->
+    <string name="hint_loop_count">Count (e.g. 10)</string>
+    <string name="hint_delay">500</string>
+    <string name="hint_point_delay">Delay ms</string>
+
+    <!-- Confirmations -->
+    <string name="confirm_clear_title">Clear all points?</string>
+    <string name="confirm_clear_msg">This will remove all click points.</string>
+    <string name="confirm_yes">Yes, Clear</string>
+    <string name="confirm_no">Cancel</string>
+</resources>

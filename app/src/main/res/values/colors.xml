@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background palette -->
+    <color name="bg_deep">#0D0D1A</color>
+    <color name="bg_surface">#1A1A2E</color>
+    <color name="bg_elevated">#16213E</color>
+    <color name="bg_card">#0F3460</color>
+
+    <!-- Accent -->
+    <color name="accent">#E94560</color>
+    <color name="accent_dark">#C73652</color>
+    <color name="accent_stop">#FF6B6B</color>
+    <color name="accent_stop_dark">#E05555</color>
+    <color name="accent_add">#4ECDC4</color>
+
+    <!-- Text -->
+    <color name="text_primary">#EAEAEA</color>
+    <color name="text_secondary">#A8A8B3</color>
+    <color name="text_hint">#5A5A7A</color>
+    <color name="text_label">#7A7A9A</color>
+
+    <!-- Divider -->
+    <color name="divider">#1E2A4A</color>
+
+    <!-- Click point bubble colors (numbered) -->
+    <color name="point_1">#E94560</color>
+    <color name="point_2">#4ECDC4</color>
+    <color name="point_3">#FFE66D</color>
+    <color name="point_4">#A8E6CF</color>
+    <color name="point_5">#FF8B94</color>
+    <color name="point_6">#C3A6FF</color>
+    <color name="point_7">#F7DC6F</color>
+    <color name="point_8">#82E0AA</color>
+
+    <!-- Transparent overlays -->
+    <color name="overlay_panel_bg">#F01A1A2E</color>
+    <color name="overlay_header_bg">#200F3460</color>
+
+    <!-- Status colors -->
+    <color name="status_running">#4CAF50</color>
+    <color name="status_stopped">#F44336</color>
+    <color name="status_paused">#FF9800</color>
+
+    <!-- White/Black -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
